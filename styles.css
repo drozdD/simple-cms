@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    background-image: linear-gradient(to right bottom, #ccd3e7, #a6b3d5, #7e95c3, #5378b1, #125c9f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#top{
+    width: 100%;
+    height: 20px;
+    background-color: #4B5B7D;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#top a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+#top a:last-child{
+    float: right;
+    color: white;
+    margin-right: 2%;
+    text-decoration: none;
+}
+#top a:hover{
+    color: black;
+}
+#loginForm{
+    border: 5px solid #4180e8;
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+    color: white;
+}
+#logowanie{
+    margin-top: 10%; 
+    width: 180px;
+    text-align: left;
+}
+h1{
+    color: #4180e8;
+    width: 150px;
+    margin: auto;
+}
+#zaloguj{
+    margin-top: 5%;
+    text-align: center;
+}
+#zaloguj input{
+    background-color: #4180e8;
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+}
+#margin1{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    background-image: linear-gradient(to right bottom, #ccd3e7, #a6b3d5, #7e95c3, #5378b1, #125c9f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    text-align: center;
+    border-collapse: collapse; 
+    padding: 5%;
+}
+th{
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 22px;
+}
+td{
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ID{
+    width: 10%;
+}
+.imieNazwisko{
+    width: 30%;
+}
+.login{
+    width: 20%;
+}
+.typKonta{
+    width: 20%;
+}
+.edycja{
+    width: 20%;
+}
+.edit{
+    color: white;
+    background-color: #258af7;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+} 
+.del{
+    color: white;
+    background-color: #ff3333;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+} 
+#marginSmall{
+    height: 3%;
+}
+#main{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+#main h2{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+#formik{
+    text-align: left;
+    font-size: 20px;
+}
+.input{
+    width: 100%;
+}
+#save{
+    margin-top: 3%;
+    color: white;
+    background-color: #41ba53;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    height: 30px;
+    float: right;
+} 
+#add{
+    margin-top: 3%;
+    color: white;
+    background-color: #41ba53;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 30px;
+    float: right;
+}

@@ -1,0 +1,195 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    background-image: linear-gradient(to right bottom, #ccd3e7, #a6b3d5, #7e95c3, #5378b1, #125c9f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#marginxSmall{
+    height: 4%;
+}
+#header{
+    width: 60%;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: auto;
+}
+#header div{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#header div:hover{
+    color: white;
+}
+#content{
+    width: 55%;
+    margin: auto;
+    padding: 0;
+}
+.news{
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 1.5%;
+    margin-top: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 200px;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.newsHeader{
+    color: whitesmoke;
+    background-color: #40588C;
+    border-bottom: 1px solid gray;
+    min-height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+p{
+    margin: 0;
+    margin-left: 5px;
+}
+.more{
+    color: honeydew;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #40588C;
+    border: 1px solid gray;
+    cursor: pointer;
+    float: right;
+}
+#info{
+    clear: both;
+    width: 100%;
+    min-height: 180px;
+    background-color: white;
+    margin-bottom: 1.5%;
+}
+#infoHeader{
+    color: black;
+    min-height: 30px;
+    padding-top: 10px;
+    background-color: #FCC697;
+    text-align: center;
+}
+#info h3{
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+#info p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#details{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    cursor: pointer;
+}
+#details button{
+    cursor: pointer;
+    color: white;
+    border: 1px solid gray;
+    background-color: #2D1E63;
+    font-family: 'Quicksand', sans-serif;
+}
+#footer{
+    width: 100%;
+    height: 20px;
+    background-color: #4B5B7D;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+#footer:hover{
+    animation: znikanie 1s;
+    opacity: 0%;
+}
+@keyframes znikanie {
+    form {opacity: 100%;}
+    to{opacity: 0%;}
+}
+a { color: inherit; } 
+.edit{
+    margin-left: 5px;
+    float: left;
+    color: white;
+    background-color: #258af7;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+} 
+.del{
+    margin-left: 5px;
+    float: left;
+    color: white;
+    background-color: #ff3333;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+} 
+#editWindow{
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    border: 3px solid black;
+    background: white;
+    min-width: 30%;
+    min-height: 30%;
+}
+#editWindow :nth-child(1){
+    text-align: center;
+}
+#editWindow form{
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+}
+#top{
+    width: 100%;
+    height: 20px;
+    background-color: #4B5B7D;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#top a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+#top a:last-child{
+    float: right;
+    color: white;
+    margin-right: 2%;
+    text-decoration: none;
+}
+#top a:hover{
+    color: black;
+}
